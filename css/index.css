@@ -1,0 +1,157 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    /* 块级元素 */
+}
+a{
+    font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.backgrounda{
+    min-width: 100%;
+    height: 666px;
+    border: none;
+    display: inline-block;
+    /* 行内块元素 */
+    position: absolute;
+    /* 绝对定位 */
+    background-size: cover;
+    background-position: center ;
+    /* 设置背景图像的起始位置 */
+    z-index: -1;
+    /* 元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面 */
+    background-image: url(../images/春季到了.jpg);
+}
+ul,li{
+    list-style-type: none;
+    display: list-item;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #f3f7fa;
+    position: absolute;
+    /* 绝对定位 */
+    z-index: 1000;
+    /* 堆叠顺序大于背景图，所以在前面 */
+    opacity: 0.6;
+    /* 透明度设置 */
+}
+.logo{
+    width: 30%;
+    height: 100px; 
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.logo img{
+    background: url(images\松鼠.jpg) no-repeat;
+    background-size: 100px;
+}
+nav{
+    width: 70%;
+    line-height: 100px;
+    float: left;
+    background: rgba(255, 255, 255, 0.3);
+}
+nav ul{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    width:15%;
+    font-size: 16px;
+    margin-right: 40px;
+    float: left;
+}
+.zai a{
+    color: green
+}
+.shang{
+    width: 100%;
+    height: 600px;
+}
+h1{
+    width: 100%;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 80px 0px 20px 0px;
+}
+h2{
+    width: 100%;
+    color: black;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+}
+.inquire{
+    width: 100%;
+    height: 300px;
+    padding: 50px 0;
+}
+table{
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    /* 相对定位 */
+    border-spacing: 0px;
+    /* 表格边框间距 */
+    display: table;
+}
+.table1{
+    width: 30%;
+    float: left;
+}
+h3{
+    width: 100%;
+    color: black;
+    font-family:sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+}
+.table12{
+    padding: 0px 50px;
+    text-align: left;
+ }
+ span{
+     font-size: 12px;
+     font-family: sans-serif;
+     font-weight: normal;
+     text-align: center;
+ }
+ button{
+    border: 1px solid #aed0ea;
+    padding: 0;
+    margin-top: 100px;
+}
+ .answer{
+    padding: 10px 0px 10px 0px;
+    text-align: right;
+}
+.xiang{
+    margin-top: 100px;
+    padding-left: 150px;
+}
+footer{
+    width: 100%;
+    height: 150px;
+    background: url(../images/夏天夏季.jpg) no-repeat;
+}
+

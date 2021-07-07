@@ -1,0 +1,186 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(227, 252, 251);
+    z-index: -1;
+}
+a{
+    font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #f3f7fa;
+    position: fixed;
+    z-index: 1030;
+    opacity: 0.9;
+}
+.logo{
+    width: 30%;
+    height: 100px; 
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.logo img{
+    background: url(images\松鼠.jpg) no-repeat;
+    background-size: 100px;
+}
+ul,li{
+    list-style-type: none;
+    display: list-item;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    width: 70%;
+    line-height: 100px;
+    float: left;
+    background: rgba(255, 255, 255, 0.3);
+}
+nav ul{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    width:15%;
+    font-size: 16px;
+    margin-right: 40px;
+    float: left;
+}
+.zai a{
+    color: green
+}
+/* 与首页相同 */
+.cont{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.cont1{
+    width: 300px;
+    background-color:#daf4fc;
+    margin: 0px;
+    padding:0px;
+    position: fixed;
+    /* 固定定位元素 */
+    top: 100px;
+    /* 坐标设置 */
+    float: left;
+    /* 浮动在左边 */
+}
+/* 此版块在滑动页面时，位置固定不变 */
+.cont11{
+    width: 260px;
+    height: 100px;
+    padding:20px;
+}
+.logo2{
+    width: 100px;
+    height: 100px; 
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+h1{
+    width: 100px;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    /* 文字居中 */
+    margin:10px 0px;
+    padding: 0px;
+    float: left;
+}
+p{
+    width: 100%;
+    color: black;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    text-align: center;
+}
+.cont2{
+    padding:100px 50px 0px 450px;
+}
+.cont2-1{
+    position: relative;
+    /* 相对定位 */
+    height: 1000px
+}
+.cont2-11{
+    position: absolute;
+    /* 绝对定位 */
+    left: 0%;
+    top: 0px;
+}
+.cont2 img{
+    width: 340px;
+    height: 340px; 
+    margin: 0px;
+    padding: 0px;
+}
+.cont2-111{
+    width: 320px;
+    padding:10px;
+    background-color: #ffffff;
+}
+.cont2 h2{
+    width: 100%;
+    color: rgb(2, 183, 196);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.cont2 p{
+    width: 320px;
+    color: rgb(2, 183, 196);
+    font-size: 12px;
+    font-weight: normal;
+    text-align: center;
+}
+.cont2-12{
+    position: absolute;
+    left: 50%;
+    top: 0px;
+}
+.cont2-13{
+    position: absolute;
+    left: 0%;
+    top: 460px;
+}
+.cont2-14{
+    position: absolute;
+    left: 50%;
+    top: 530px;
+}
+span{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+button{
+   border: 2px solid #aed0ea;
+   padding: 0;
+   margin-top: 100px;
+}
+.fan{
+    position: absolute;
+    top:1050px;
+    right: 50px;
+}

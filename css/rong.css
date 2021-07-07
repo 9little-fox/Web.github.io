@@ -1,0 +1,189 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    background-color: rgb(236, 227, 248);
+}
+a{
+    font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+ul,li{
+    list-style-type: none;
+    display: list-item;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #f3f7fa;
+    position: absolute;
+    z-index: 1030;
+    opacity: 0.9;
+}
+.logo{
+    width: 30%;
+    height: 100px; 
+    margin: 0px;
+    padding: 0px;
+    float: left;
+}
+.logo img{
+    background: url(images\松鼠.jpg) no-repeat;
+    background-size: 100px;
+}
+nav{
+    width: 70%;
+    line-height: 100px;
+    float: left;
+    background: rgba(255, 255, 255, 0.3);
+}
+nav ul{
+    width: 100%;
+    height: 100px;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+}
+nav li{
+    width:15%;
+    font-size: 16px;
+    margin-right: 40px;
+    float: left;
+}
+.zai a{
+    color: green
+}
+/* 与首页相同 */
+h1{
+    width: 100%;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px 0;
+}
+p{
+    width: 100%;
+    color: black;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+}
+.cont1{
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.h{
+    display: block;
+    /* 块级元素 */
+    width: 30px;
+    height: 2px;
+    background: #dbdada;
+    margin: 0 auto;
+    border: 0;
+}
+.cont11{
+    width: 499px;
+    float: right;
+    padding: 80px 0px 50px 0px;
+    border-left: 2px solid #dbdada;
+    position: relative;
+    /* 相对定位 */
+}
+/* 第一板块模板设置浮动在页面右边 */
+.cont11 .quan{
+    position: absolute;
+    /* 绝对定位 */
+    top: 0;
+    left: 0;
+    margin-top: 100px;
+    margin-left:-12px;
+}
+.cont11 h1{
+    color: #696969;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: left;
+    margin: -10px 0px 10px 20px;
+}
+.cont11 p{
+    color:#707070;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    text-align: left;
+    margin: 0px 50px 0px 20px;
+}
+.cont12{
+    width:498.5px;
+    border-right: 2px solid #dbdada;
+    float: left;
+    padding: 80px 0px 0px 0px;
+    position: relative;
+}
+/* 第二板块模板设置浮动在页面左边 */
+.cont12 h1{
+    color: #696969;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: bold;
+    text-align: right;
+    margin: -50px 100px 10px -10px;
+}
+.cont12 p{
+    color:#707070;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: normal;
+    text-align: right;
+    margin: 0px 100px 0px -30px;
+}
+.cont12 .quan{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 60px;
+    margin-right: -12px;
+}
+table{
+    position: absolute;
+    top: 880px;
+    right: 20px;
+}
+/* 表格设置在页面右下角 */
+.table12{
+    padding: 0px ;
+    text-align: left;
+ }
+span{
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+button{
+   border: 1px solid #aed0ea;
+   padding: 0;
+   margin-top: 100px;
+}
+.answer{
+   padding: 10px 0px 10px 0px;
+   text-align: right;
+}
